@@ -1,0 +1,47 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d 872b6274 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-allow-expose-url
+
+## exception
+
+SocketException: SocketException: OS Error: No se permitió una solicitud para enviar o recibir datos ya que el socket no está conectado y no se ha proporcionado ninguna dirección, al realizar el envío en un socket de datagramas por medio de una llamada sendto.
+, errno = 10057, address = 127.0.0.1, port = 60095
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 1.22.5, on Microsoft Windows [VersiÃ³n 10.0.19041.450], locale es-PE)
+    • Flutter version 1.22.5 at C:\src\flutter
+    • Framework revision 7891006299 (6 months ago), 2020-12-10 11:54:40 -0800
+    • Engine revision ae90085a84
+    • Dart version 2.10.4
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+    • Android SDK at C:\Users\Hamilton\AppData\Local\Android\Sdk
+    • Platform android-30, build-tools 29.0.2
+    • ANDROID_HOME = C:\Users\Hamilton\AppData\Local\Android\Sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin installed
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[✓] VS Code (version 1.56.2)
+    • VS Code at C:\Users\Hamilton\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.22.0
+
+[✓] Connected device (1 available)
+    • SM G900M (mobile) • 872b6274 • android-arm • Android 5.0 (API 21)
+
+• No issues found!
+```
